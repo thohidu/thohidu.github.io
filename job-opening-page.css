@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* border: solid blue 5px; */
+}
+
+/* html {
+    border: solid cyan 3px;
+}  */
+
+#logo {
+    /* border: solid black 1px; */
+    max-width: 50px;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+img {
+    /* border: solid blue 3px; */
+    width: 100%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    /* border-bottom: solid black 1px; */
+    padding: 10px;
+    background-color: #303136;
+    margin-bottom: 5px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    border-right: solid black 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.job-opening {
+    margin-left: 200px;
+    margin-right: 20px;
+    /* border: solid blue 3px; */
+}
+
+/* #signup {
+    max-width: 600px; */
+    /* min-width: 100px; */
+    /* margin: 20px auto;
+} */
+
+#imagine-signup-img {
+    /* width: 100%; */
+    border-radius: 15px;
+    /* margin-left: 300px; */
+}
+
+.community-container {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    /* border: solid red 2px; */
+}
+
+#invitation-text {
+    font-size: 25px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#discord-invite-img {
+    max-width: 100px;
+}
+
+button {
+    background: #303136; 
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button:hover {
+    color: #303136;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#community-invite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signup {
+    /* border: solid blue 3px; */
+}
+
+#community-invitation {
+    /* border: solid black 3px; */
+}
+
+#imagine-signup-img {
+    margin-top: 100px;
+}
+
+#job-apply-button {
+    width: 100%;
+}
