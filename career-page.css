@@ -34,7 +34,7 @@ img {
     border-radius: 6px;
 }
 
-#nav-bar {
+.nav-bar {
     display: flex;
     flex-direction: column;
     border-right: solid rgba(0, 0, 0, 0.2) 1px;
@@ -155,8 +155,85 @@ button:hover {
     flex-grow: 1;
     /* border: solid cyan 2px; */
     margin-left: 40px;
-    
-
 }
+
+.hamburger-menu-icon {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    padding: 14px 16px;
+    background-color: black;
+    color: #fff;
+    display: none;
+}
+
+@media (max-width: 800px) {
+
+    #job-text {
+        font-size: 16px;
+    }
+
+    /* #nav-bar {
+        display: none;
+    } */
+
+    .job-opening {
+        margin-left: 0;
+        margin-left: 20px;
+    }
+
+    /* .job-apply-link {
+        font-size: 1px;
+    } */
+
+    #job-apply-button {
+        font-size: 15px;
+    }
+
+    .community-container {
+        flex-direction: column;
+    }
+
+    #job-apply-button:hover {
+        font-size: 20px;
+    }
+
+    #imagine-signup-img {
+        margin-top: 50px;
+    }
+
+    #invitation-text {
+        margin-top: 10px;
+    }
+
+    #logo {
+        margin-bottom: 0;
+    }
+    
+    .nav-bar {
+        border-right: none;
+        height: auto;
+        /* background-color: #303136; */
+    }
+    
+    .nav-bar .nav-link{
+        width: 100vw;
+        /* text-align: center; */
+        font-size: 30px;
+        margin-bottom: 0;
+        display: none;
+    }
+
+    .hamburger-menu-icon {
+        display: block;
+        background-color: #303136;
+    }
+
+    #invitation-text {
+        margin-top: 50px;
+    }
+}
+
 
 
